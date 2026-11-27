@@ -1,0 +1,8 @@
+/data/*.json
+/data/store.php
+/storage/
+/.htaccess
+/abrir-haname.bat
+/site/data/*.json
+/site/data/store.php
+/site/storage/

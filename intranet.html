@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0A6338">
+    <meta name="description" content="Haname Clínica Médica — agenda, equipe e atendimento.">
+    <title>Painel clínico — Haname</title>
+    <link rel="icon" href="assets/logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body data-page="admin">
+    <div id="siteHeader" class="site-header" role="banner" aria-label="Cabeçalho Haname"></div>
+    <main id="app" tabindex="-1">
+      <div class="app-loading" data-initial-loading role="status" aria-live="polite">
+        <span class="sr-only">Carregando conteúdo Haname…</span>
+        <span class="skeleton skeleton-title"></span>
+        <span class="skeleton skeleton-copy"></span>
+        <span class="skeleton skeleton-copy short"></span>
+      </div>
+      <noscript><div class="container page-heading"><div class="notice"><strong>Ative o JavaScript para usar este portal.</strong><span>O Haname precisa dele para carregar a navegação e os recursos da interface.</span></div></div></noscript>
+    </main>
+    <div id="siteFooter" class="site-footer" role="contentinfo"></div>
+    <div id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+    <script defer src="vendor/jquery-3.7.1.min.js"></script>
+    <script defer src="data/seed.js"></script>
+    <script defer src="js/db.js"></script>
+    <script defer src="js/ui.js"></script>
+    <script defer src="script.js"></script>
+    <script defer src="js/agendamento.js"></script>
+    <script defer src="js/forms.js"></script>
+    <script defer src="js/clinic.js"></script>
+    <script defer src="js/pages.js"></script>
+  </body>
+</html>
